@@ -174,10 +174,13 @@ choixTransfert(BuildContext context) {
             ),
             GestureDetector(
               onTap: () {
-                Navigator.pushNamed(context, '/transfertcomptemobilemoney',
-                    arguments: {
-                      'numberCheck': "mobile",
-                    });
+                Navigator.pushNamed(
+                  context,
+                  '/transfertcomptemobilemoney',
+                  arguments: {
+                    'numberCheck': "mobile",
+                  },
+                );
               },
               child: containerTransfert("Vers un Mobile Money", 3),
             ),
